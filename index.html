@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="block">
+            <h1>Decodificador de Texto</h1>
+            <textarea id="inputText" placeholder="Digite seu texto aqui..."></textarea>
+            <div class="error" id="errorMessage"></div>
+            <button onclick="criptografar()">Criptografar</button>
+            <button onclick="descriptografar()">Descriptografar</button>
+        </div>
+        <div class="block">
+            <div class="output" id="outputText"></div>
+            <button onclick="copiarTexto()">Copiar</button>
+        </div>
+    </div>
+    <footer>
+        <p>Isabella Aguiar - 2024</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

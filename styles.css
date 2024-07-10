@@ -1,0 +1,88 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f6f7; /* rosa pastel */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* alinha conteúdo verticalmente */
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 800px;
+    margin: auto; /* centraliza o container horizontalmente */
+    display: flex;
+    justify-content: space-between; /* espaçamento entre os blocos */
+}
+
+.block {
+    width: 50%; /* cada bloco ocupa 50% da largura do container */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: #ea5e8f; /* rosa mais forte */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+textarea, input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #ea5e8f; /* rosa mais forte */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff87ab; 
+}
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.output {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    flex-grow: 1; 
+}
+
+footer {
+    margin-top: 20px;
+    color: #888;
+    font-size: 14px;
+    text-align: center;
+    flex-shrink: 0;
+}
