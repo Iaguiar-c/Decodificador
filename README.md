@@ -1,36 +1,36 @@
 # Decodificador
 Challenge Decodificador de Texto
 
-<p align="center">Um simples decodificador de texto utilizando HTML, CSS e JavaScript, com um design estético em tons de rosa pastel.</p>
-
-<img align="right" alt="" height="180px" src="./assets/decodificador1.png">
+<p >Um simples decodificador de texto utilizando HTML, CSS e JavaScript, com um design estético em tons de rosa pastel.</p>
+<br>
+<img alt="" height="180px" src="./assets/decodificador1.png">
 
  <br>
 
 <h3 align="left">Funcionalidades</h3>
 <p>Criptografar: Transforma o texto inserido usando um algoritmo simples de criptografia.<p>
 
-<img align="right" alt="" height="180px" src="./assets/decodificador2.png">
+<img  alt="" height="180px" src="./assets/decodificador2.png">
 
  <br>
 
 <p>Descriptografar: Converte o texto criptografado de volta ao texto original.<p>
-<img align="right" alt="" height="180px" src="./assets/decodificador4.png">
+<img  alt="" height="180px" src="./assets/decodificador4.png">
  <br>
 
 <p>Copiar Texto: Permite copiar o texto resultante para a área de transferência.<p>
-<img align="right" alt="" height="180px" src="./assets/decodificador3.png">
+<img alt="" height="180px" src="./assets/decodificador3.png">
 
 <br>
 
 <h3 align="left">Como Usar</h3>
-<p>Clone o Repositório<p>
-<p>Abra o Arquivo HTML: Abra o arquivo index.html em seu navegador web.<p>
-<p>Digite um Texto: Insira o texto que deseja criptografar ou descriptografar no campo de texto.<p>
-<p>Criptografar ou Descriptografar:
+<p>1- Clone o Repositório<p>
+<p>2- Abra o Arquivo HTML: Abra o arquivo index.html em seu navegador web.<p>
+<p>3- Digite um Texto: Insira o texto que deseja criptografar ou descriptografar no campo de texto.<p>
+<p>4- Criptografar ou Descriptografar:
 Clique no botão "Criptografar" para codificar o texto.
 Clique no botão "Descriptografar" para decodificar o texto.<p>
-<p>Copiar o Texto Resultante: Após a operação de criptografia ou descriptografia, você pode clicar no botão "Copiar" para copiar o texto resultante para a área de transferência.<p>
+<p>5- Copiar o Texto Resultante: Após a operação de criptografia ou descriptografia, você pode clicar no botão "Copiar" para copiar o texto resultante para a área de transferência.<p>
 
 <h3 align="left">Tecnologias Utilizadas</h3>
 <div align="left">
